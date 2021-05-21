@@ -3,7 +3,7 @@ _fork &amp; clone; and then commit &amp; push as many solutions as you can solve
 `FOR EVERY PROBLEM THERE IS A CORRESPONDING STATIC METHOD OF THE SIMILAR NAME (E.G. PROBLEM1, PROBLEM2, PROBLEM3, ETC) INSIDE OF THE QUIZ.JAVA FILE. YOUR SOLUTION CODE WILL GO THERE.`
 
 
-## problem 1:
+## Problem 1:
 Given a string `str` print to the console every character in that string, one-letter-at-a-time, one-letter-per-line.
 ```
     /**
@@ -23,8 +23,10 @@ Given a string `str` print to the console every character in that string, one-le
 
 ```
 
+## Problem 2:
+Given an array of ints, `arr`, **PRINT*** to the console the _average_ of all the numbers in that array.
 
-## problem 2:
+## Problem 3:
 Given a string `word`, **PRINT*** to the console the string in reverse order. `"Dog"` => <prints> `goD` to the console.
 ```
     /**
@@ -37,7 +39,7 @@ Given a string `word`, **PRINT*** to the console the string in reverse order. `"
 ```
 
 
-## problem 3:
+## Problem 4:
 Given a string `word`, **RETURN*** `true` if the string is a palindrome & `false` if it is not. A palindrome is any string that is the same string both forwards & backwards (i.e. in reverse order). _THIS SHOULD BE CASE-INSENSITIVE_: `"Mom"`/`"dAd"`/`"rACeCAR"` => returns `true`
 ```
     /**
@@ -48,7 +50,7 @@ Given a string `word`, **RETURN*** `true` if the string is a palindrome & `false
      * */
 ```
 
-## problem 4:
+## Problem 5:
 Given an array of ints, `arr`, **RETURN*** the _INDEX_ of where the smallest int is stored.
 ```
     /**
@@ -58,7 +60,7 @@ Given an array of ints, `arr`, **RETURN*** the _INDEX_ of where the smallest int
 
 ```
 
-## problem 5:
+## Problem 6:
 Given a natural number, `n`, **PRINT*** to the console n-number of lines composed of the char '#' that observe the following pattern:
 ```
     /**
@@ -99,7 +101,7 @@ Given a natural number, `n`, **PRINT*** to the console n-number of lines compose
     * */
 ```
 
-## problem 6:
+## Problem 7:
 Given a natural number, `n`, PRINT* to the console a triangle whose height is n units tall. For this problem '#' will be the char that you'll be using for this exercise.
 ```aidl
     /**
@@ -121,7 +123,7 @@ Given a natural number, `n`, PRINT* to the console a triangle whose height is n 
      * */
 ```
 
-## problem 7:
+## Problem 8:
 on the TV show ["Pee-wee's Playhouse"](https://en.wikipedia.org/wiki/Pee-wee%27s_Playhouse), every episode there
 would be a secret-word. Whenever that secret word was spoken by a character in the episode, everyone was
 instructed to scream very loud.
@@ -131,7 +133,8 @@ for every word (spaces separate words from one another `' '`) TO SEE IF THE SECR
 wherever the secret word occurs modify the script so that `"AHHHHHHHHHHHH HAAAAAAAAAA!!"` is inserted right after
 the occurrence of the secret word in the script.
 RETURN* the updated script when the method has finished checking every word in every line of the episode's script.
-## problem 8:
+
+## Problem 9:
 Given a natural number, `n` that is greater than or equal to `1`...
 >while `n` does not equal `1`...
 >>print `n` to the console\
@@ -188,20 +191,20 @@ upon exiting the while loop, print `n` one last time, 1 should print to the cons
 
 ```
 
-## problem 9:
+## Problem 10:
 Refactor your solution to problem 7 so that given a number `n` that is greater than or equal to `1`...\
 Return the number `x` that is between `1` & `n` and takes the **_most_** iterations in order to complete the above defined while loop
 
 
-## problem 10:
+## Problem 11:
 **COUNT THE CHARACTERS**...\
 Given a string, `text`, representing a text, RETURN* a HashMap where every unique character in the text is a key in the HashMap & every corresponding value is the number of times that character occurs in the text.
 
-## problem 11:
+## Problem 12:
 **COUNT THE WORDS**...\
 Refactor your solution to problem 9 so that it takes a string representing a text but counts the occurrence of words in a text instead of characters.
 
-## problem 12:
+## Problem 13:
 Given a string, `msg`, RETURN* a string such that any alphabetical characters will be swapped out with another alphabetical character 13 letters off in the lower or uppercase alphabet, `"abcdefghijklmnopqrstuvwxyz"` or `"ABCDEFGHIJKLMNOPQRSTUVWXYZ"`.
 ```aidl
     /**

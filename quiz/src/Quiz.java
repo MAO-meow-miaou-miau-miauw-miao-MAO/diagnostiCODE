@@ -26,6 +26,15 @@ public class Quiz {
 
 
 /////  /////  /////  /////  /////  /////  /////  /////  /////  /////  /////  /////
+// Given an array of ints, arr, PRINT* to the console the average of all the numbers in that arr.
+
+    public static void PROBLEM_2(int[] arr){
+
+
+    }
+
+
+/////  /////  /////  /////  /////  /////  /////  /////  /////  /////  /////  /////
 // given a string, PRINT* to the console the string in reverse order. "Dog" => <prints> "goD" to the console.
     /**
      * "Dog" : => goD [prints to the console]
@@ -35,7 +44,7 @@ public class Quiz {
      *
      * */
 
-    public static void PROBLEM_2(String word){
+    public static void PROBLEM_3(String word){
 
 
     }
@@ -49,7 +58,7 @@ public class Quiz {
      * "Java is fun" : => [returns] false
      * "Java sucks" : => [returns] false
      * */
-    public static boolean PROBLEM_3(){
+    public static boolean PROBLEM_4(){
 
 
         return true; // replace this line whenever you start working on this one.
@@ -64,7 +73,7 @@ public class Quiz {
      */
 
 
-    public static int PROBLEM_4(int[] arr){
+    public static int PROBLEM_5(int[] arr){
 
 
         return 0; // replace this line whenever you start working on this one.
@@ -110,7 +119,7 @@ public class Quiz {
               # [prints to the console]
     * */
 
-    public static void PROBLEM_5(int n){
+    public static void PROBLEM_6(int n){
 
 
     }
@@ -135,7 +144,7 @@ public class Quiz {
      *         ############# [is printed to the console]
      * */
 
-    public static void PROBLEM_6(int n) {
+    public static void PROBLEM_7(int n) {
 
     }
 /////  /////  /////  /////  /////  /////  /////  /////  /////  /////  /////  /////
@@ -149,7 +158,7 @@ public class Quiz {
     // the occurrence of the secret word in the script.
     // RETURN* the updated script when the method has finished checking every word in every line of the episode's script.
 
-    public static String PROBLEM_7(String script, String secretWord){
+    public static String PROBLEM_8(String script, String secretWord){
 
 
         return ""; // replace this line whenever you start working on this one.
@@ -208,7 +217,7 @@ public class Quiz {
      *        2
      *        1 [prints to the console]
      * */
-    public static void PROBLEM_8(int n){
+    public static void PROBLEM_9(int n){
 
     }
 
@@ -216,7 +225,7 @@ public class Quiz {
 // refactor your solution to problem 7 so that given a number n that is greater than or equal to 1...
     // return the number x that is between 1 & n and takes the most iterations to complete the above defined while loop
 
-    public static int PROBLEM_9(int n){
+    public static int PROBLEM_10(int n){
 
 
         return 0; // replace this line whenever you start working on this one.
@@ -226,7 +235,7 @@ public class Quiz {
 // Given a string representing a text, RETURN* a HashMap where every unique character in the text is a key in the HashMap & every corresponding value is the number of times that character occurs in the text.
 // COUNT THE CHARACTERS...
 
-    public static HashMap<String,Integer> PROBLEM_10(String text){
+    public static HashMap<String,Integer> PROBLEM_11(String text){
 
 
         return new HashMap<String,Integer>(); // replace this line whenever you start working on this one.
@@ -236,7 +245,7 @@ public class Quiz {
 /////  /////  /////  /////  /////  /////  /////  /////  /////  /////  /////  /////
 // Refactor your solution to PROBLEM 9 so that it takes a string representing a text but counts the occurrence of words in a text instead of characters.
 
-    public static HashMap<String, Integer> PROBLEM_11(String text){
+    public static HashMap<String, Integer> PROBLEM_12(String text){
 
 
         return new HashMap<String,Integer>(); // replace this line whenever you start working on this one.
@@ -262,7 +271,7 @@ public class Quiz {
      *
      * */
 
-    public static String PROBLEM_12(String msg){
+    public static String PROBLEM_13(String msg){
 
 
         return ""; // replace this line whenever you start working on this one.
