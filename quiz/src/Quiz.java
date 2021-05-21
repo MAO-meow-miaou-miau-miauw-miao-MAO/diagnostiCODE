@@ -96,7 +96,7 @@ public class Quiz {
      * */
     public static boolean hasNumber(int[] arr, int n){
 
-
+        return true; // replace this line whenever you start working on this one.
     }
 
 /////  /////  /////  /////  /////  /////  /////  /////  /////  /////  /////  ///// PROBLEM 5
