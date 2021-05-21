@@ -25,7 +25,7 @@ Given a string `str` print to the console every character in that string, one-le
 
 
 ## problem 2:
-Given a string `word`, PRINT* to the console the string in reverse order. `"Dog"` => <prints> `goD` to the console.
+Given a string `word`, **PRINT*** to the console the string in reverse order. `"Dog"` => <prints> `goD` to the console.
 ```
     /**
      * "Dog" : => goD [prints to the console]
@@ -38,7 +38,7 @@ Given a string `word`, PRINT* to the console the string in reverse order. `"Dog"
 
 
 ## problem 3:
-Given a string `word`, RETURN* true if the string is a palindrome & false if it is not. A palindrome is any string that is the same string both forwards & backwards (i.e. in reverse order). THIS SHOULD BE CASE-INSENSITIVE: `"Mom"`/`"dAd"`/`"rACeCAR"` => returns `true`
+Given a string `word`, **RETURN*** `true` if the string is a palindrome & `false` if it is not. A palindrome is any string that is the same string both forwards & backwards (i.e. in reverse order). _THIS SHOULD BE CASE-INSENSITIVE_: `"Mom"`/`"dAd"`/`"rACeCAR"` => returns `true`
 ```
     /**
      * "MOm" : => [returns] true
@@ -49,7 +49,7 @@ Given a string `word`, RETURN* true if the string is a palindrome & false if it 
 ```
 
 ## problem 4:
-Given an array of ints, `arr`, RETURN* the INDEX of where the smallest int is stored.
+Given an array of ints, `arr`, **RETURN*** the _INDEX_ of where the smallest int is stored.
 ```
     /**
      * {42, 7, 0, 88, -37, 2999, 17, 348, -1} : => [returns] 4, because arr[4] is -37 which is the smallest number in the array
@@ -59,7 +59,7 @@ Given an array of ints, `arr`, RETURN* the INDEX of where the smallest int is st
 ```
 
 ## problem 5:
-Given a natural number, `n`, PRINT* to the console n-number of lines composed of the char '#' that observe the following pattern:
+Given a natural number, `n`, **PRINT*** to the console n-number of lines composed of the char '#' that observe the following pattern:
 ```
     /**
      * 0 : => [nothing prints to the console]
@@ -141,6 +141,52 @@ otherwise (when `n` is odd), reassign `n` to `n` multiplied by `3` and add `1` t
 
 >^ repeat these steps as many times as need be ^\
 upon exiting the while loop, print `n` one last time, 1 should print to the console
+
+```
+    /**
+     * 3 : => 3
+     *        10
+     *        5
+     *        16
+     *        8
+     *        4
+     *        2
+     *        1 [prints to the console]
+     *
+     * 4 : => 4
+     *        2
+     *        1 [prints to the console]
+     *
+     * 6 : => 6
+     *        3
+     *        10
+     *        5
+     *        16
+     *        8
+     *        4
+     *        2
+     *        1 [prints to the console]
+     *
+     * 7 : => 7
+     *        22
+     *        11
+     *        34
+     *        17
+     *        52
+     *        26
+     *        13
+     *        40
+     *        20
+     *        10
+     *        5
+     *        16
+     *        8
+     *        4
+     *        2
+     *        1 [prints to the console]
+     * */
+
+```
 
 ## problem 9:
 Refactor your solution to problem 7 so that given a number `n` that is greater than or equal to `1`...\
