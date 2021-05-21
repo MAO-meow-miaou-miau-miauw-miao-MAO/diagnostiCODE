@@ -6,6 +6,6 @@ public class Main {
 
         // if you wish to test your code before submitting, you can call your methods here.
         // just delete the above and write out something like...
-        // /// System.out.println(Quiz.PROBLEM_9("T'was brillig, and the slithy toves\n\tDid gyre and gimble in the wabe:\n\tAll mimsy were the borogoves,\n\tAnd the mome raths outgrabe."));
+        // /// System.out.println(QuizPart2.countingCharacters("T'was brillig, and the slithy toves\n\tDid gyre and gimble in the wabe:\n\tAll mimsy were the borogoves,\n\tAnd the mome raths outgrabe."));
     }
 }
